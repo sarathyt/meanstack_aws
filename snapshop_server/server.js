@@ -8,7 +8,7 @@ let express = require('express'),
 // mongoose instance connection url connection
 mongoose.connect('mongodb://root:XxQf3Lw5J07Y@ec2-34-235-146-230.compute-1.amazonaws.com:27017/snapshopDB', {
     useMongoClient: true,
-    auth:admin
+    auth:"admin"
 });
 mongoose.Promise = global.Promise;
 console.log(mongoose.Promise);
