@@ -10,6 +10,7 @@ mongoose.connect('mongodb://root:XxQf3Lw5J07Y@ec2-34-235-146-230.compute-1.amazo
     useMongoClient: true,
     auth:"admin"
 });
+
 mongoose.Promise = global.Promise;
 console.log(mongoose.Promise);
 //Adding body parser for handling request and response objects.
@@ -17,6 +18,10 @@ console.log(mongoose.Promise);
 app.use(bodyParser.urlencoded({
     extended: true
 }));
+
+mongoose.connection.on('connected',()=> {
+    console.log("Hiiiiii");
+ });
 
 // app.use(bodyParser.urlencoded({
 // extended: true
