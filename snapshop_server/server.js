@@ -6,7 +6,7 @@ let express = require('express'),
     path=require('path');
 
 // mongoose instance connection url connection
-mongoose.connect('mongodb://root:XxQf3Lw5J07Y@ec2-34-235-146-230.compute-1.amazonaws.com:27017/snapshopDB', {
+mongoose.connect('mongodb://root:XxQf3Lw5J07Y@ec2-34-235-146-230.compute-1.amazonaws.com/snapshopDB', {
     useMongoClient: true,
     auth:"admin"
 });
