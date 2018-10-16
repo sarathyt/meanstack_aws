@@ -37,21 +37,6 @@ This applications demonstrates how to setup a RESTful API using NodeJS with Angu
 
 Installation
 
-Install all dependencies in package.json file. This can be done by navigating to the root directory in the command line interface and running the following command:
-$ npm install
-$ npm angular- material
-
-
-Next, install all of the Angular 2 development dependencies in package.json file:
-
-$ cd snapshop/
-
-$ npm install
-// add your npm installs required
-
-Next, install all of the server dependencies in package.json file:
-
-
 $ cd snapshop-server/
 
 $ npm install express --save 
@@ -68,22 +53,10 @@ $ npm run start
 
 -- Access production server at: http://localhost:3000
 
-Development
-
-$ cd client/
-$ ng serve
--- In another window, from root directory run:
-
-$ npm start
--- Access development server at: http://localhost:4200
--- Access API at: http://localhost:3000
 
 
 Contributors
-AJ
-Jigar
-Hiren
-Pranesh
+
 Tarangini
 
 No license.
